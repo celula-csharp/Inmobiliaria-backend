@@ -7,11 +7,11 @@ namespace webInmobiliary.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class PropertyControlle : ControllerBase
+public class PropertyController : ControllerBase
 {
     private readonly IPropertyService _propertyService;
 
-    public PropertyControlle(IPropertyService propertyService)
+    public PropertyController(IPropertyService propertyService)
     {
         _propertyService = propertyService;
     }
